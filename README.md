@@ -1,0 +1,1 @@
+This repository demonstrates a common source of undefined behavior in Rust: modifying a vector's contents through a raw pointer after the vector might have reallocated its internal buffer.  The `bug.rs` file contains the problematic code. The `bugSolution.rs` demonstrates a safer approach using proper Rust techniques.
